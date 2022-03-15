@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono:wght@500&display=swap'); 
+ 
+body{
+    background-color: rgb(60, 185, 10);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+nav ul li{
+    padding:0px 10px;
+}
+nav ul{
+display: flex;
+list-style-type: none;
+height:50px;
+background-color: black;
+color: white;
+align-items: center;
+
+}
+
+.brand img{
+    width:50px;
+    padding:0px 11px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+   margin:10px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding:11px 9px;
+    background: url(img/photo-1614680376593-902f74cf0d41.jpeg) center;
+
+}
+.bottom{
+    position:sticky;
+    height: 80px;
+    background-color: rgb(10, 0, 0);
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+.icons{
+    margin-top: 15px;
+    }
+.icons i{
+    cursor: pointer;
+    padding: 0px 5px;
+   padding-right: 20px;
+    padding-left: 5px;
+}
+
+#myprogress{  
+    width: 80vw; 
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 28px;
+    padding: 9px 1px;
+} 
+.songitem:hover{
+    /*height: 50px;*/
+   /* width: 90%;*/
+    /*display: flex;
+    justify-content: space-around;
+    margin: 28px;
+    padding: 9px 1px;*/
+    background-color: rgb(61, 248, 3);
+    color: black;
+    border-radius: 15px;
+} 
+ .songitem img{
+height: 30px;
+width: 50px;
+border-radius: 50px;
+
+ } 
+ .songlistitem{
+     margin: 6px;
+     padding:0px 2px;
+     font-size: 0.9rem;
+     cursor: pointer;
+ }
+ .time{
+     margin:9px;
+     padding:0px 7px;
+     font-size: smaller;
+ }
+ .songitem i{
+     margin:15px;
+     padding:0px 0px;
+     cursor: pointer;
+ }
+#gif{
+margin:-2px;
+height:21px;
+width:38px;
+}
+#gif{
+   opacity:0;
+   transition: opacity 0.5s ease-in;
+    }
+    .songinfo{
+        position: absolute;
+        left:10vw;
+    }
